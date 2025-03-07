@@ -24,5 +24,21 @@ const cicles = [
  ]
 
  console.log(cicles)
+   let minusweight = cicles[0]['weight']
+   minusweight = parseInt(minusweight)
+   let result = cicles[0]
+
+ for(let key in cicles){
+    let check = (cicles[key]['weight'])
+    const ciclesMinusWeight =(cicles[key])
+    
+    if (check < minusweight ) {
+        minusweight = check
+        result =  ciclesMinusWeight
+       
+    }
+
+ }
 
 
+console.log(` la bici che pesa di meno é ${result.model} `)
