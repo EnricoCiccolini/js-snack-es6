@@ -42,10 +42,10 @@ console.log(team)
 
 
 
-for (let key in team) {
+for (let i = 0; i< team.length; i++) {
 
-    team[key].punti = randomNumber()
-    team[key]['falliSubiti'] = randomNumber()
+    team[i].punti = randomNumber()
+    team[i]['falliSubiti'] = randomNumber()
 
 }
 console.log(team)
@@ -63,11 +63,11 @@ const removePoints = []
 
 
 
-for (let key in team) {
+for (let i = 0; i< team.length; i++) {
 
     removePoints.push({
-        nome: team[key].names,
-        falliSubiti: team[key]['falliSubiti']
+        nome: team[i].names,
+        falliSubiti: team[i]['falliSubiti']
     })
 }
 
