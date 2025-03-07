@@ -41,4 +41,4 @@ const cicles = [
  }
 
 
-console.log(` la bici che pesa di meno é ${result.model} `)
+console.log(` la bici che pesa di meno é ${result.model} e pesa ${result.weight}`)
