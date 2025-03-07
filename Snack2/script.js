@@ -60,7 +60,7 @@ console.log(team)
 */
 
 const removePoints = []
-
+let removePointsinner = ''
 
 
 for (let i = 0; i< team.length; i++) {
@@ -69,6 +69,8 @@ for (let i = 0; i< team.length; i++) {
         nome: team[i].names,
         falliSubiti: team[i]['falliSubiti']
     })
+  removePointsinner += `<li> Nome ${team[i].names}        Falli Subiti ${team[i]['falliSubiti']} </li> `
+
 }
 
 console.log(removePoints)
@@ -86,6 +88,15 @@ console.log(removePoints)
 
 
 
+
 function randomNumber() {
     return Math.floor(Math.random() * 70) + 1
 }
+
+
+
+
+const resultElement = document.getElementById('result')
+console.log(resultElement)
+
+resultElement.innerHTML = removePointsinner

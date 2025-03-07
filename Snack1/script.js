@@ -42,3 +42,9 @@ const cicles = [
 
 
 console.log(` la bici che pesa di meno é ${result.model} e pesa ${result.weight}`)
+
+
+const resultElement = document.getElementById('result')
+console.log(resultElement)
+
+resultElement.innerHTML = ` la bici che pesa di meno é ${result.model} e pesa ${result.weight}`
