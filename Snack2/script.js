@@ -9,32 +9,32 @@ const team = [
     {
         names: 'roma',
         punti: 0,
-        'falli subiti': 0
+        'falliSubiti': 0
     },
     {
         names: 'lazio',
         punti: 0,
-        'falli subiti': 0
+        'falliSubiti': 0
     },
     {
         names: 'juve',
         punti: 0,
-        'falli subiti': 0
+        'falliSubiti': 0
     },
     {
         names: 'milan',
         punti: 0,
-        'falli subiti': 0
+        'falliSubiti': 0
     },
     {
         names: 'torino',
         punti: 0,
-        'falli subiti': 0
+        'falliSubiti': 0
     },
     {
         names: 'napoli',
         punti: 0,
-        'falli subiti': 0
+        'falliSubiti': 0
     },
 ]
 
@@ -45,7 +45,7 @@ console.log(team)
 for (let key in team) {
 
     team[key].punti = randomNumber()
-    team[key]['falli subiti'] = randomNumber()
+    team[key]['falliSubiti'] = randomNumber()
 
 }
 console.log(team)
@@ -53,7 +53,7 @@ console.log(team)
 /* for(let key in team){
     console.log(team[key]['names'])
     console.log(team[key]['punti'])
-    console.log(team[key]['falli subiti'])
+    console.log(team[key]['falliSubiti'])
     
 
 }
@@ -67,7 +67,7 @@ for (let key in team) {
 
     removePoints.push({
         nome: team[key].names,
-        'falli subiti': team[key]['falli subiti']
+        falliSubiti: team[key]['falliSubiti']
     })
 }
 
