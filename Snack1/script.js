@@ -28,9 +28,9 @@ const cicles = [
    minusweight = parseInt(minusweight)
    let result = cicles[0]
 
- for(let key in cicles){
-    let check = (cicles[key]['weight'])
-    const ciclesMinusWeight =(cicles[key])
+ for(let i = 0; i< cicles.length; i++){
+    let check = (cicles[i]['weight'])
+    const ciclesMinusWeight =(cicles[i])
     
     if (check < minusweight ) {
         minusweight = check
