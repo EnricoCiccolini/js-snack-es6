@@ -64,9 +64,10 @@ const removePoints = []
 
 
 for(let key in team){
-
-    removePoints.push(team[key].punti) 
+    
     removePoints.push(team[key]['names']) 
+    removePoints.push(team[key].punti) 
+    
 
 }
 
